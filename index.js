@@ -4,8 +4,8 @@ let userStatus = "";
 function computerPlay() {
     const choice = Math.floor(Math.random()*3);
     
-//assign rock, paper and scissors to ints
-if (choice === 0) {
+    //assign rock, paper and scissors to ints
+    if (choice === 0) {
         return "rock";
     } else if (choice === 1) {
         return "paper";
