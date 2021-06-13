@@ -1,0 +1,60 @@
+#bkrd {
+    margin: auto;
+    width: 90%;
+    background-image: url("/images/rps.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+
+
+
+}
+#btns {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    width: 60%;
+}
+.btn {
+    margin: 20px;
+    padding: 20px 30px;
+    text-align: center;
+    color: white;
+    background-color: coral;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+.btn:hover {
+    background-color: black;
+}
+
+#results {
+    margin: auto;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: turquoise;
+    padding: 30px 10px;
+    box-shadow: 10px;
+    width: 50%;
+    text-align: center;
+    animation-name: result;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+ 
+}
+
+@keyframes result {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+
+    }
+    100% {
+        opacity: 1;
+
+    }
+}
